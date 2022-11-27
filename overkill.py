@@ -5,7 +5,7 @@ import re
     Read the battle timestamp like 1:30 XXX and subtract it into a overkill time version
     
     Credit by 終將成為你 https://github.com/YungPingXu/pcr-bot/blob/main/main.py
-    Rearrange by Kouheng(一杯果汁火) 2020.11.27 """
+    Rearrange by Kouheng(一杯果汁火) 2022.11.27 """
 
 
 def check_time(number_line_header):
