@@ -12,7 +12,7 @@ class MyCog(commands.Cog):
     @commands.command(name='tr', description="補償刀轉換器, time輸入補償刀秒數1~90秒, content輸入抄作業的原始內容", aliases=['TR', 'Tr'])
     async def tr(self, context: commands.Context):
         msg = context.message.content
-        tr = re.match(r"<@\d+>\s*tr\s*(\d+)\s*\n([\s\S]+)", msg)
+        tr = re.match(r"<@\d+>\s*tr\s*(\d+)\s*\n([\s\S]+)", msg.lower())
         time = None
         content = None
         try:
